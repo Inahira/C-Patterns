@@ -1,2 +1,2 @@
-# C-Patterns
+# C++_Patterns
 Draw patterns using c++
