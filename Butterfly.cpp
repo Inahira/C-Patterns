@@ -10,7 +10,7 @@ int main()
 	cin>>n;
 	cout<<"\n";
 	
-	for (rows=1; rows<=n; rows++)
+	for (rows=1; rows<=n; rows++) // for left wing
 	{
 		for (clmns=1; clmns<=rows; clmns++)
 		{
@@ -31,7 +31,7 @@ int main()
 		
 		cout<<"\n";
 	}
-	for (rows=1; rows<=n; rows++)
+	for (rows=1; rows<=n; rows++) // for right side
 	{
 		for (clmns=n; clmns>rows; clmns--)
 		{
