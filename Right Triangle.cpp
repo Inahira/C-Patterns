@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	//Simple Square Pattern in CPP
+	//Simple Right Triangle Pattern in CPP
 	int rows, clmns, n;
 	
 	cout<<"Enter no. of rows:\n";
@@ -13,7 +13,7 @@ int main()
 	for (rows=1; rows<=n; rows++)
 	{
 		
-		for (clmns=1; clmns<=n; clmns++)
+		for (clmns=1; clmns<=rows; clmns++)
 		{
 			cout<<"* ";
 		}
