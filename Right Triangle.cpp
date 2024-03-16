@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -20,6 +21,35 @@ int main()
 		
 		cout<<"\n";
 	}
+	
+	return 0;
+}
+*/
+
+// converted into functioned program
+
+#include <iostream>
+using namespace std;
+
+void rightTriangle(int n) //function for right triangle
+{
+	for (int row=1; row<=n; row++)
+	{
+		for (int clmn=1; clmn<=row; clmn++)
+		{
+			cout<<"* ";
+		}
+		cout<<"\n";
+	}
+}
+
+int main ()
+{
+	int n;
+	cout<<"Enter number of rows: ";
+	cin>>n;
+	cout<<"\n";
+	rightTriangle(n); //call for rightTriangle function
 	
 	return 0;
 }
